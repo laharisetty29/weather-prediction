@@ -36,7 +36,7 @@ The trained model is deployed using Flask as a web application where users can i
 ---
 
 ## 📂 Project Structure
-
+'''bash
 weather_prediction/
 │
 ├── app.py
