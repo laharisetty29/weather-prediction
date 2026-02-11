@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Prediction</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: #f0f8ff;
+        }
+        input {
+            margin: 5px;
+            padding: 8px;
+        }
+        button {
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌦 Rain Prediction System</h1>
+
+    <form action="/predict" method="post">
+        <input type="text" name="MinTemp" placeholder="Min Temperature"><br>
+        <input type="text" name="MaxTemp" placeholder="Max Temperature"><br>
+        <input type="text" name="Humidity9am" placeholder="Humidity 9am"><br>
+        <input type="text" name="Humidity3pm" placeholder="Humidity 3pm"><br>
+        <input type="text" name="Pressure9am" placeholder="Pressure 9am"><br>
+        <input type="text" name="Pressure3pm" placeholder="Pressure 3pm"><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+
+</body>
+</html>
