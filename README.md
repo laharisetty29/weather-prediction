@@ -63,20 +63,20 @@ git clone https://github.com/YOUR_USERNAME/weather-prediction-ml.git
 cd weather-prediction
 
 ###2️⃣ Create Virtual Environment
-```bash
+
 python -m venv venv
 ###3️⃣ Install Dependencies
-```bash
+
 pip install -r requirements.txt
 ###🧪 Run Model Training
-```bash
+
 python train_model.py
-This will generate:```bash model.pkl
+This will generate: model.pkl
 
 ###🌐 Run Flask App
-```bash
+
 python app.py
-Open browser:```bash http://127.0.0.1:5000/
+Open browser: http://127.0.0.1:5000/
 
 ###📊 Sample Input
 
